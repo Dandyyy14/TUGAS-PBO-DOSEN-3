@@ -23,5 +23,10 @@ public class BangunBeraksi {
         Tabung t = new Tabung();
         System.out.println("Volume Tabung: " + t.volume(7, 10));
         System.out.println("Luas Permukaan Tabung: " + t.luasPermukaan(7, 10));
+
+        Prisma pr = new Prisma();
+        System.out.println("Volume Prisma: " + pr.volume(6, 4, 10));
+        System.out.println("Luas Permukaan Prisma: " + pr.luasPermukaan(6, 4, 3, 4, 5, 10));
+
     }
 }
